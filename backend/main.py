@@ -9,7 +9,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://myfrontend.vercel.app"
+        "https://investment-game-sigma.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
